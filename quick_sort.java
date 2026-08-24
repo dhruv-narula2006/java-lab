@@ -36,8 +36,8 @@ class  quick_sort{
 
     public static void main(String[] args) {
         String[] names = {
-            "Abhishek", "Kartik", "Mahira", "Shweta",
-            "Prakash", "Shubham", "Mayank", "Sakshi"
+            "Kirat", "Dheeraj", "Shaurya", 
+            "Harish", "Ritik", "Arshin"
         };
 
         quickSort(names, 0, names.length - 1);
@@ -48,12 +48,3 @@ class  quick_sort{
     }
 }
 
-// Output:
-// Abhishek
-// Kartik
-// Mahira
-// Mayank
-// Prakash
-// Sakshi
-// Shubham
-// Shweta
